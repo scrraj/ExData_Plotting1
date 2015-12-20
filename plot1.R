@@ -18,3 +18,4 @@ myData <- subset(allData, as.Date(allData$Date,"%d/%m/%Y") == fromDate | as.Date
 png (filename = "plot1.png")
 hist(myData[,"Global_active_power"], main = "Global Active Power", col="red",xlab="Global active power (kilowatts)")
 dev.off()
+ 
